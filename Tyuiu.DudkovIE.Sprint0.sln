@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.34031.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DudkovIE.Sprint0.Task0.V0", "Tyuiu.DudkovIE.Sprint0.Task0.V0\Tyuiu.DudkovIE.Sprint0.Task0.V0.csproj", "{844DE28E-38B6-459C-8D87-3097435145F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{1BAD3C7F-0064-4EFC-B16F-8F6CF1F3F46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DudkovIE.Sprint0.Task1.V0", "Tyuiu.DudkovIE.Sprint0.Task1.V0\Tyuiu.DudkovIE.Sprint0.Task1.V0.csproj", "{976F1A61-2CB9-485D-9512-07DAF459C026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{844DE28E-38B6-459C-8D87-3097435145F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844DE28E-38B6-459C-8D87-3097435145F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844DE28E-38B6-459C-8D87-3097435145F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976F1A61-2CB9-485D-9512-07DAF459C026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976F1A61-2CB9-485D-9512-07DAF459C026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976F1A61-2CB9-485D-9512-07DAF459C026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976F1A61-2CB9-485D-9512-07DAF459C026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{976F1A61-2CB9-485D-9512-07DAF459C026} = {1BAD3C7F-0064-4EFC-B16F-8F6CF1F3F46B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {060B919F-E40B-4A4B-9704-520123C59915}
